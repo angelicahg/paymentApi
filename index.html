@@ -9,16 +9,21 @@
     <script src></script>
 </head>
 <body>
-    <h1>Cart</h1>
-<img src="https://craftypixels.com/placeholder-image/200x200/c21807/fff&text=Chillis"/>
-
-<h3 class="product">Product:<span>Bag of red chillis</span></h3>
-<h3 class="price">Price:<span>$4.99</span></h3>
-<label for="amount">Quantity</label>
-<input id="amount" type="number" value="0" min="0">
-<h3 class="price">SubTotal:</h3>
-<h3><div class="currency">$</div><div id="subTotalText">0.00</div></h3>
-<button class="pay-button">Buy Chillis</button>
+    <div>
+        <h1>Cart</h1>
+        <div id="discount">Buy 10, get 20% off!</div>
+        <img src="https://dummyimage.com/600x400/000000/ff0015&text=chillis"/>
+        
+        <h3 class="product">Product:<span>Bag of red chillis</span></h3>
+        <h3 class="price">Price:<span>$4.99</span></h3>
+        <label for="amount">Quantity</label>
+        <input id="amount" type="number" value="0" min="0">
+        <div id="getmore">Add 2 more to get discount....</div>
+        <h3 class="price">SubTotal:</h3>
+        <h3><div class="currency">$</div><div id="subTotalText">0.00</div></h3>
+        <button class="pay-button">Buy Chillis</button>
+        <div id="message"></div>
+      </div>
 <script src="./script.js"></script>
 </body>
 </html>
